@@ -1,0 +1,77 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.buttonUniversal {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-border-color: #273a89;
+    -fx-border-radius: 5px;
+    -fx-border-width: 0.5px;
+/*    -fx-background-radius: 5px;
+    -fx-cursor: hand;*/
+    -fx-cursor: hand;
+}
+
+.buttonMenu {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-width: 0.5px;
+/*    -fx-background-radius: 5px; */
+    -fx-cursor: hand;
+}
+
+.buttonMenuBiru {
+    -fx-background-color: transparent;
+    -fx-text-fill: #273a89;
+    -fx-border-color: #273a89;
+    -fx-border-radius: 100px;
+    -fx-border-width: 0.5px;
+/*    -fx-background-radius: 5px;
+    -fx-cursor: hand;*/
+    -fx-cursor: hand;
+}
+
+.textField {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 20px;
+    -fx-border-width: 0.5px;
+    -fx-background-radius: 20px;
+    
+/*    
+    -fx-cursor: hand;*/
+}
+
+.bgPutih {
+    -fx-background-color: white;
+   
+}
+
+.bgBiru{
+    -fx-background-color: #273a89;
+   
+}
+
+.buttonFillBiru {
+    -fx-background-color: #273a89;
+    -fx-text-fill: white;
+    -fx-border-color: #273a89;
+    -fx-border-radius: 100px;
+    -fx-border-width: 0.5px;
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+
+.buttonFillPutih {
+    -fx-background-color: white;
+    -fx-text-fill: #273a89;
+    -fx-border-color: white;
+    -fx-border-radius: 100px;
+    -fx-border-width: 0.5px;
+    -fx-background-radius: 20px; 
+    -fx-cursor: hand;
+}

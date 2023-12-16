@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui_sistemmanajemenproyek.Login_adminController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="-27.0" prefHeight="741.0" prefWidth="1199.0" styleClass="bgBiru" stylesheets="@daftar_anggota.css">
+         <children>
+            <FontAwesomeIcon fill="WHITE" glyphName="WRENCH" layoutX="328.0" layoutY="615.0" opacity="0.1" size="50em" />
+            <Label layoutX="487.0" layoutY="275.0" text="Login sebagai Admin" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fldUsername" layoutX="410.0" layoutY="326.0" prefHeight="50.0" prefWidth="378.0" promptText="Username" styleClass="textField" stylesheets="@daftar_anggota.css">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btnMasuk" layoutX="605.0" layoutY="446.0" mnemonicParsing="false" onAction="#masukAkun" prefHeight="50.0" prefWidth="182.0" styleClass="buttonMenu" stylesheets="@daftar_anggota.css" text="Masuk">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="851.0" layoutY="398.0" />
+            <PasswordField fx:id="fldPassword" layoutX="410.0" layoutY="386.0" prefHeight="50.0" prefWidth="378.0" promptText="Kata sandi" styleClass="textField" stylesheets="@daftar_anggota.css">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="btnBatal" layoutX="410.0" layoutY="446.0" mnemonicParsing="false" onAction="#masukLogin" prefHeight="50.0" prefWidth="182.0" styleClass="buttonMenu" stylesheets="@daftar_anggota.css" text="Batal">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

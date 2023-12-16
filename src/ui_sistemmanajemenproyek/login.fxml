@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="741.0" prefWidth="1199.0" styleClass="solid" stylesheets="@daftarpyk.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui_sistemmanajemenproyek.LoginController">
+   <children>
+      <FontAwesomeIcon fill="#273a89" glyphName="WRENCH" layoutX="79.0" layoutY="599.0" opacity="0.12" size="45em" wrappingWidth="703.9999513626099" />
+      <Label layoutX="114.0" layoutY="287.0" prefHeight="94.0" prefWidth="330.0" text="PROPLAN:" textFill="#273a89">
+         <font>
+            <Font name="System Bold" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="370.0" text="Sukses Satu Proyek, Satu Rencana">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#273a89" height="391.0" layoutX="656.0" layoutY="175.0" mouseTransparent="true" opacity="0.95" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="429.0" />
+      <TextField fx:id="fldUsername" alignment="CENTER" layoutX="681.0" layoutY="206.0" prefHeight="50.0" prefWidth="378.0" promptText="Username" styleClass="textField" stylesheets="@daftar_anggota.css">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnMasuk" layoutX="681.0" layoutY="328.0" mnemonicParsing="false" onAction="#masukAkun" prefHeight="50.0" prefWidth="378.0" styleClass="buttonMenu" stylesheets="@daftar_anggota.css" text="Masuk">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Button>
+      <Line endX="188.4000244140625" layoutX="871.0" layoutY="446.0" startX="-190.0" stroke="WHITE" />
+      <Button fx:id="btnDaftar" layoutX="763.0" layoutY="479.0" mnemonicParsing="false" onAction="#daftarAkun" prefHeight="56.0" prefWidth="214.0" styleClass="buttonMenu" stylesheets="@daftar_anggota.css" text="Daftar">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="851.0" layoutY="398.0" />
+      <Hyperlink fx:id="hlLupaPW" layoutX="811.0" layoutY="400.0" onAction="#lupaPW" text="Lupa kata sandi?" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Hyperlink>
+      <PasswordField fx:id="fldPassword" alignment="CENTER" layoutX="681.0" layoutY="267.0" prefHeight="50.0" prefWidth="378.0" promptText="Kata sandi" styleClass="textField" stylesheets="@daftar_anggota.css">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </PasswordField>
+      <Hyperlink fx:id="btnLoginAdm" layoutX="796.0" layoutY="572.0" onAction="#goToLoginAdm" text="Login sebagai Admin">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
