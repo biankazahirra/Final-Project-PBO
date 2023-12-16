@@ -1,0 +1,30 @@
+.gradient {
+    -fx-background-color: linear-gradient(to bottom right, #EBE3D5, #B0A695);
+}
+
+.solid {
+    -fx-background-color: #ffffff;
+}
+
+.biruDongker {
+    -fx-background-color: #273a89;
+}
+
+.buttonProyek{
+    -fx-background-color: transparent;
+}
+
+.buttonLogout{
+    -fx-background-color: #ffffff;
+}
+
+.gradientButtonCreateAccount {
+    -fx-background-color: transparent;
+    /* -fx-text-fill: white;*/
+    -fx-border-color: #273a89;
+    -fx-border-radius: 100px;
+    -fx-border-width: 0.5px;
+/*    -fx-background-radius: 5px;
+    -fx-cursor: hand;*/
+    -fx-cursor: hand;
+}

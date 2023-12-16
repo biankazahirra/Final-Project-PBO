@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="741.0" prefWidth="1199.0" styleClass="solid" stylesheets="@daftarpyk.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="ui_sistemmanajemenproyek.Detail_proyekController">
+   <children>
+      <Label layoutX="130.0" layoutY="78.0" text="Detail Proyek" textFill="#273a89">
+         <font>
+            <Font name="Segoe UI Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="188.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="WHITE" height="459.0" layoutX="129.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="942.0" />
+      <Label layoutX="307.0" layoutY="237.0" text="ID">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblId" layoutX="449.0" layoutY="237.0" text="id">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="281.0" layoutY="302.0" text="Nama">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNama" layoutX="449.0" layoutY="302.0" text="nama">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="274.0" layoutY="371.0" text="Tujuan">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTujuan" layoutX="449.0" layoutY="371.0" text="tujuan">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="446.0" text="Tenggat Waktu">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDeadline" layoutX="449.0" layoutY="446.0" text="tenggatwaktu">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="520.0" text="Anggaran">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAnggaran" layoutX="449.0" layoutY="520.0" text="anggaran">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="283.0" layoutX="510.0" layoutY="293.0" startX="-100.0" startY="-91.40000915527344" stroke="WHITE" />
+      <Label layoutX="378.0" layoutY="237.0" text=":">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="302.0" text=":">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="371.0" text=":">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="446.0" text=":">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="520.0" text=":">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

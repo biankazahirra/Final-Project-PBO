@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="741.0" prefWidth="1199.0" styleClass="solid" stylesheets="@daftarpyk.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui_sistemmanajemenproyek.Form_input_proyekController">
+   <children>
+      <Label layoutX="190.0" layoutY="62.0" text="Tambah Data Proyek" textFill="#273a89">
+         <font>
+            <Font name="Segoe UI Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="146.0" text="ID" textFill="#273a89">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fldID" layoutX="190.0" layoutY="174.0" prefHeight="36.0" prefWidth="818.0" />
+      <Label layoutX="190.0" layoutY="227.0" text="Nama" textFill="#273a89">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="310.0" text="Tujuan" textFill="#273a89">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="444.0" text="Tenggat Waktu" textFill="#273a89">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="532.0" text="Anggaran" textFill="#273a89">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fldNama" layoutX="190.0" layoutY="255.0" prefHeight="36.0" prefWidth="818.0" />
+      <TextField fx:id="fldDeadline" layoutX="190.0" layoutY="472.0" prefHeight="36.0" prefWidth="818.0" />
+      <TextField fx:id="fldAnggaran" layoutX="190.0" layoutY="560.0" prefHeight="36.0" prefWidth="818.0" />
+      <Button fx:id="btnTambah" layoutX="802.0" layoutY="650.0" mnemonicParsing="false" onAction="#insertData" text="Tambah Data Proyek" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnKembali" layoutX="227.0" layoutY="650.0" mnemonicParsing="false" onAction="#backDaftarProyek" text="Daftar Proyek">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font></Button>
+      <TextArea fx:id="fldTujuan" layoutX="190.0" layoutY="338.0" prefHeight="93.0" prefWidth="818.0" />
+   </children>
+</AnchorPane>
